@@ -1,71 +1,30 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16615857)
-# UD1 - OOP + UML
+💻 PROJECT: UD2 - GUI Wireframe 
+Due Saturday by 11:59pm Points 1 Submitting a website url or a file upload File Types pdf, png, and jpeg
+Practice Time!
 
-This semester you'll be building Java projects with graphical user interfaces (or better known as GUIs). What do you want to build?! It's time to commit now (sort of)!
+ Final Project Prep - GUI Wireframe
+This semester you'll be building Java projects with graphical user interfaces (or better known as GUIs). What do you want to build?! It's time to commit now! The purpose of this unit deliverable is to help you start planning your final project. Most likely your design will change when you're building the project near the end of the semester, but your goal is to plan as much of the project as you can with as much detail as possible! The more the better!
 
-The purpose of this unit deliverable is to help you start planning your final project. Most likely your design will change when you're building the project near the end of the semester, but your goal is to plan as much of the project as you can with as much detail as possible! The more the better! Since we haven't ever built a GUI, that means we focus on the back-end of the program a.k.a. just the data side.
+Here is what you should do your UD2:
 
-## Project Requirements\*
-- Create a full UML diagram, following proper syntax, for your final project idea
-- Build only ONE of your classes, including all required methods for model classes (3 constructors, setters, getters, equal, and toString)
-- A full tester class for your class
-- You must thoughtfully use the following in the planning of your project:
-    - Concrete class
-    - Inheritance/Polymorphism
-- You must use at least 1 of the following topics thoughtfully in your project and provide an explanation of why the others are not necessary:
-    - Abstract class
-    - Inner class
-    - Custom exception
+Design the wireframe of the GUI for your final project. Nothing fancy, you can use tools like Diagrams.netLinks to an external site. (requires Google account), Wireframe.ccLinks to an external site. (click X to use, but any saving requires free account), or any drawing program that's free or available to you! Pen/paper works too, just make sure its clean and readable when you scan it.
+You can always add more later, but start conservative with your design but be thorough about what is useful for your application
+Build the Java GUI in Intellij. You'll only need to build the front-end, meaning not every button/dropdown box/etc. has to do what it's supposed to
+Layout all the components you'll need and start setting up the event handlers (even if all they do is print "hello" to the console, you just want to get it ready for whatever your full application will do)
+Integrate your model class from UD1 into the GUI project
+Recommend doing this in a way that is useful. For example, using the users data from the text fields to create the model class object when a button is clicked. This way, this UD is chipping away at your final project.
+Again, doesn't have to have all the features you want for your final project, but this can be your first "proof of concept" that you're building towards the final project.
+You're mostly coding the front-end of your project here. It may not have all the bells and whistles, but in Unit 3 you'll be building the final project that connects everything from this semester needed to accomplish what you want!
 
-## Grading
-Remember we're following the EARN grading scale:
-- :rocket: (E)xceeds Expectations:
-    - same as (A)
-    - every file + method documented
-- :white_check_mark: (A)cceptable:
-    - complete UML diagram with correct syntax
-    - complete model class (with all required methods)
-    - code follows Java convention/style
-    - basic tester
-- :wrench: \(R\)evision Required: meets some lab requirements, feedback is left for how to get it to E/A grade
-- :question: (N)ot Assessable: does not meet many, if any, lab requirements
+Tip: your UML from UD1 may have more classes that you require to get your project going. If you have the time now (remember, end of semester gets hectic!) you can start building some of those necessary parts that could help with integrating into the GUI as well!
 
-## Tips
-- Note that you can always add more to your project later, but start conservative with your design and be thoughtful with how you use each OOP concept
-    - Most likely you will need several concrete classes, so make sure to create the UML class diagram for each
-    - However, you can start simple! Keep your UML class diagrams minimal as you brainstorm and get advice from tutors, classmates, your instructor, etc.
-    - Make sure you are using the right relationship between classes (composition vs. inheritance vs. inner class)
-- I recommend you choose the model class that is most fundamental to your project. That might be an abstract class!
-- You can mimic UD0, where the Card class was the most fundamental part to the project and the tester was provided (CardTester.java)
-
-
-Your ultimate goal is to plan as much as possible, so that the feedback you get helps with your final project implementation as much as possible. You are coding the bare minimum (just one class) because we want to emphasize the planning before we fully commit to a full project when we haven't gone over all concepts/tools in the course yet!
-
-## Useful Tools
-You're using some really sophisticated development tools, take advantage! Here are some suggestions to help you draw your UML diagrams:
-- Paper + Pencil
-    - A classic, use it to brainstorm and send me pictures of to give you quick and simple guidance!
-    - You'll need to digitize whatever you submit, so checkout the others below at some point to prepare your UD1 submission
-- Draw.io / Diagrams.net
-    - Free platform, requires Google login
-    - Integrates with VS Code/Codespaces (extensions already added that supports .drawio files
-    - https://www.drawio.com/
-- LucidChart
-    - Free platform (for a few files at a time), requires an account but can use login services like Google, Microsoft, etc.
-    - https://www.lucidchart.com/
-- PlantUML
-    - Creates diagrams for you from a simple language like this markdown
-    - Add VS Code extension in Codespace for ease of use!
-    - https://plantuml.com/class-diagram
-
-
-## \*Group Work
-**Please give your instructor a heads up that you're working in a group, along with the members names, to modify your repository to allow all of you to modify the project!**
-* Tip: Create a branch for each member to work on, and [merge](https://www.youtube.com/watch?v=XX-Kct0PfFc) to resolve conflicts. Checkout other guides online as well as the tutors and your instructor for support!
-
-The [Project Requirements](#project-requirements*) above applies for individual projects. For group projects, modify as follows:
-- The model+tester requirement is per person
-    - Example: team of 3 means you each build a model class + tester, for a total of 3 model classes and testers
-- Document who is in charge of which classes
-- You can absolutely help each other with the code you're responsible for, that's the point of collaborating!
-- Ultimately, you are responsible for your files working and meeting our specifications above
+ Submission Instructions
+UD2 build off of UD1 do use that repository to build the GUI component of the site UD1Links to an external site.
+Create your group for this UD here on Canvas and ensure all group members are added. If you are solo, then create a group and only add yourself.
+Download your diagram (as an image or PDF) and upload below. Make sure to include it in your README.md file in your as well!
+Submitting your Unit 2 Deliverable project/code
+on GitHub, one submission per group by making a group for the UD2 project. You all can collaborate on there very easily!
+using IntelliJ, you can collaborate using the "Code With Me" feature. One submission per group by having one member compress (ZIP) the project folder and uploading it below 
+on Canvas submit a link to the repository and the picture of the GUI
+lastly commit and push your code to the repository on GithubLinks to an external site.
+Note: if working in a team of 2 or 3, only one of you needs to submit. However, make sure that your partners are added to the group! If you are working solo, you don't need to add anyone to your group just submit normally.
